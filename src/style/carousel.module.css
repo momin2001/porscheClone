@@ -1,0 +1,28 @@
+.caros {
+    cursor:pointer;
+    position: static !important;
+    z-index: -99999999999999 !important;
+    
+}
+
+ @media(min-width: 1000px) {
+.caros img {
+    width: 75em;
+    height: 31.25em;
+    object-fit: cover;
+    
+}
+ }
+ @media(max-width: 1215px) {
+    .caros {
+        overflow-x: hidden;
+    }
+ }
+ @media(max-width: 770px) {
+    .caros img {
+        
+    }
+ }
+ 
+
+

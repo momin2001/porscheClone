@@ -1,0 +1,33 @@
+.container {
+    background: rgb(38, 37, 37);
+    color: white;
+    padding: 3rem 6rem;
+    margin-bottom: 0 !important;
+    
+
+}
+select {
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(82, 78, 78);
+    color: white;
+    margin: 0 10px;
+    margin-bottom: 2rem;
+    
+}
+.content p {
+    font-size: 0.9rem;
+    font-family: 'Roboto', sans-serif !important;
+}
+@media(max-width: 365px) {
+    select {
+        width: 11em;
+        height: 2em;
+    }
+    .container h1 {
+        font-size: 25px;
+    }
+    .container {
+        
+    }
+}

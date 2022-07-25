@@ -1,0 +1,39 @@
+.contain {
+    background: url("https://i.ibb.co/ThmJc8s/background2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.modelContainer h1 {
+    font-size: 3em;
+    margin-bottom: 90px;
+}
+.powerContain {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 5rem;
+}
+.power {
+    margin: 0 3rem;
+}
+
+@media(min-width: 1000px) {
+.modelContainer img {
+    width: 36em !important;
+    height: 20em;
+}
+}
+@media(max-width: 510px) {
+    .power {
+       margin: 0 1rem;
+       font-size: 13px;
+    }
+}
+@media(max-width: 320px) {
+    .power {
+       margin: 0 1rem;
+       font-size: 9px;
+    }
+}
+

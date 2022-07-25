@@ -1,0 +1,138 @@
+.logo {
+    margin-left: 4em;
+    background: white;
+    border: 1px solid rgb(200, 200, 200);
+    padding: 2em 1em;
+    cursor: pointer;
+    width: 5em;
+    height: 3em;
+    font-size: 1.2em;
+    position: relative;
+    z-index: 100 !important;
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    height: 120px;
+    width: 100%;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+.modelImages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 2em;
+    margin-top: 1em;
+    
+}
+.modelImages img {
+    margin: 0 0.4em;
+}
+.model {
+    text-align: center;
+    cursor: pointer;
+    border-bottom: 2px solid white;
+    padding: 10px 0;
+}
+.model:hover {
+    border-bottom: 2px solid red;
+}
+.model p {
+    margin-top: -15px;
+   
+}
+
+.links {
+    display: flex;
+    align-items: center;
+}
+.links ul {
+   display: flex;
+   align-items: center;
+   flex-direction: row;
+   list-style: none;
+}
+
+.links ul li {
+    margin: 0 0.7em;
+    cursor: pointer;
+    transition-duration: 0.1s;
+    padding: 46px 0;
+    border-bottom: 2px solid white;
+}
+.links ul li:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+.dots {
+    border-left: 1px solid rgb(200, 200, 200);
+    cursor: pointer;
+    padding: 0px 20px;
+    transition-duration: 0.1s;
+}
+.dots:hover {
+    color: red;
+}
+.btnContain {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+}
+.menuBtn {
+    width: 2rem;
+    height: 2rem;
+    
+     
+}
+.navbar2 {
+    display: none;
+}
+
+@media(max-width: 1215px) {
+    .modelImages {
+        display: none;
+        position: relative;
+        z-index: 100;
+        margin-top: 90px;
+        
+    }
+    .navbar2 {
+        display: flex;
+        position: fixed;
+        z-index: 1000;
+        background-color: white;
+        width: 100%;
+    }
+    .links {
+        display: none;
+        position: relative;
+        z-index: 100;
+    }
+    .navbar {
+        height: 50px;
+        
+    }
+    .btnContain {
+        display:flex;
+       margin-left: 80% !important;
+        margin-top: 10px; 
+        
+
+        
+    }
+    .logo {
+        height: 3em;
+        width: 5em;
+        margin-left: 2em;
+        padding: 6px 3px;
+
+    }
+    
+
+}
+@media(max-width: 530px) {
+    .btnContain {
+        margin-left: 55%;
+        margin-right: 3%;
+    }
+}

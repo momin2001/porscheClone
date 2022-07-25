@@ -1,0 +1,11 @@
+.liveContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    font-size: 100px;
+    margin-top: 60px;
+   
+
+}
